@@ -1,54 +1,111 @@
 fileFormatVersion: 2
 guid: 88b89ee76fc31ad488a3c20d65a05e89
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO"
-    100002: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO"
+  - first:
+      1: 100002
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       3"
-    100004: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      1: 100004
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       4"
-    100006: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      1: 100006
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       5"
-    100008: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      1: 100008
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       6"
-    100010: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      1: 100010
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       7"
-    100012: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      1: 100012
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       8"
-    400000: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/Transform"
-    400002: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      4: 400000
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/Transform"
+  - first:
+      4: 400002
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       3/Transform"
-    400004: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      4: 400004
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       4/Transform"
-    400006: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      4: 400006
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       5/Transform"
-    400008: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      4: 400008
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       6/Transform"
-    400010: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      4: 400010
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       7/Transform"
-    400012: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      4: 400012
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       8/Transform"
-    2800000: giphy
-    21200000: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      28: 2800000
+    second: giphy
+  - first:
+      212: 21200000
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       3/SpriteRenderer"
-    21200002: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      212: 21200002
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       4/SpriteRenderer"
-    21200004: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      212: 21200004
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       5/SpriteRenderer"
-    21200006: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      212: 21200006
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       6/SpriteRenderer"
-    21200008: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      212: 21200008
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       7/SpriteRenderer"
-    21200010: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
+  - first:
+      212: 21200010
+    second: "\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439 3_GO/\u0421\u043B\u043E\u0439
       8/SpriteRenderer"
-    21300000: "\u0421\u043B\u043E\u0439 8"
-    21300002: "\u0421\u043B\u043E\u0439 7"
-    21300004: "\u0421\u043B\u043E\u0439 6"
-    21300006: "\u0421\u043B\u043E\u0439 5"
-    21300008: "\u0421\u043B\u043E\u0439 4"
-    21300010: "\u0421\u043B\u043E\u0439 3"
-    100100000: "\u0421\u043B\u043E\u0439 3_GO"
+  - first:
+      213: 21300000
+    second: "\u0421\u043B\u043E\u0439 8"
+  - first:
+      213: 21300002
+    second: "\u0421\u043B\u043E\u0439 7"
+  - first:
+      213: 21300004
+    second: "\u0421\u043B\u043E\u0439 6"
+  - first:
+      213: 21300006
+    second: "\u0421\u043B\u043E\u0439 5"
+  - first:
+      213: 21300008
+    second: "\u0421\u043B\u043E\u0439 4"
+  - first:
+      213: 21300010
+    second: "\u0421\u043B\u043E\u0439 3"
+  - first:
+      1001: 100100000
+    second: "\u0421\u043B\u043E\u0439 3_GO"
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -119,6 +176,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,6 +200,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 5fef16441f9f2404da2599034d8cf470
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -163,6 +222,7 @@ ScriptedImporter:
       width: 58
       height: 58
     spriteID: 47094cb5eb84fa04c99f511261427f63
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -184,6 +244,7 @@ ScriptedImporter:
       width: 58
       height: 53
     spriteID: 503ed0deb4da39e4d97d92048c495788
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -205,6 +266,7 @@ ScriptedImporter:
       width: 50
       height: 46
     spriteID: 402fefc775ca63e44804bd92c938405d
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -226,6 +288,7 @@ ScriptedImporter:
       width: 40
       height: 39
     spriteID: 1bd821fe8ef5a3846a8d91a7054ce013
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -247,6 +310,7 @@ ScriptedImporter:
       width: 24
       height: 23
     spriteID: 8c878303438a95943b7e9cdeacfcf039
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -264,6 +328,10 @@ ScriptedImporter:
   importedTextureWidth: 128
   importedTextureHeight: 256
   documentSize: {x: 87, y: 87}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 128
   textureActualHeight: 256
   spritePackingTag: 
@@ -317,5 +385,9 @@ ScriptedImporter:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
+    characterGroups: []
   boneGOs: []
   generateGOHierarchy: 0
+  textureAssetName: giphy Texture
+  prefabAssetName: giphy Prefab
+  spriteLibAssetName: giphy Sprite Lib

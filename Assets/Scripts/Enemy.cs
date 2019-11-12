@@ -6,22 +6,18 @@ public class Enemy : MonoBehaviour
 {
     public GameObject EnemyPrefab;
     GameObject enemy;
-    float timer;
-    float delay = 1f;
+    public float delay;
 
-    private void Start()
-    { 
-
+    IEnumerator Spawn()
+    {
+        yield return new WaitForSeconds(delay);
+        enemy = Instantiate(EnemyPrefab, new Vector2(Random.Range(-2.2f, 2.2f), 6f), Quaternion.Euler(0f, 0f, 180f));
+        StartCoroutine(Spawn());
     }
 
-    void Update()
+    void Start()
     {
-        if (timer < 0)
-        {
-            enemy = Instantiate(EnemyPrefab, new Vector2(Random.Range(-2.2f, 2.2f), 6f), Quaternion.Euler(0f, 0f, 180f));
-            timer = delay;
-        }
-        timer -= Time.deltaTime;
+        StartCoroutine(Spawn());
     }
 
 }

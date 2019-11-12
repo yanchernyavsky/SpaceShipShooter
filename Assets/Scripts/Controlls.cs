@@ -19,7 +19,7 @@ public class Controlls : MonoBehaviour
     {
         skill = false;
         rb = GetComponent<Rigidbody2D>();
-        ScreenWigth = Screen.width;
+        //ScreenWigth = Screen.width;
     }
 
 
@@ -62,7 +62,7 @@ public class Controlls : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         Vector2 Move = new Vector2(h, v);
-        this.GetComponent<Rigidbody2D>().velocity = Move * speed;
+        rb.velocity = Move * speed;
 
         if ((Input.GetKey(KeyCode.Space)) != skill)
         {
@@ -91,7 +91,7 @@ public class Controlls : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "EL")
+        if (other.gameObject.tag == "EnemyLaser")
         {
             heals--;
             color += 0.1f;

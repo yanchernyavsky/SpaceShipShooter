@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 5058087346579382007}
   - component: {fileID: 1056263543224470564}
   - component: {fileID: 7749887350863880245}
+  - component: {fileID: 2823315229343228270}
   - component: {fileID: 4315580247762126114}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: EN
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,6 +60,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -115,9 +117,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0994155c45abc3640bda2517bd41581e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserPrefab: {fileID: 8873418876669189774, guid: a734d057affbe8c41a01510029e83924,
-    type: 3}
   ExplosionPrefab: {fileID: 5893603530670676392, guid: 7bbe887bcb6965a48a2b5536aca11217,
+    type: 3}
+--- !u!114 &2823315229343228270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873552515766516311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83c5b6201088724797c92db0d08444a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserPrefab: {fileID: 8873418876669189774, guid: a734d057affbe8c41a01510029e83924,
     type: 3}
   delay: 0.7
 --- !u!60 &4315580247762126114
